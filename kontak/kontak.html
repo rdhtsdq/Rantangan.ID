@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <title>Kontak</title>
+    <style>
+      .pesan {
+        width: 200px;
+        height: 30px;
+        border-width: 2px;
+        background-color: transparent;
+        border-color: #a8720a;
+        color: #a8720a;
+        box-shadow: none;
+        border-style: solid;
+        transition: background-color 0.25s, color 0.25s;
+      }
+      .pesan:hover {
+        background-color: #a8720a;
+        color: white;
+      }
+    </style>
+  </head>
+  <body style="font-family: 'Crimson Text'">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light pb-3" style="font-family: 'Crimson Text'">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto gap-5" style="font-size: 15px">
+            <li class="nav-item">
+              <a class="nav-link" href="../home/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../menu/menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="font-weight: bold">Kontak</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gofood & Grabfood</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- content -->
+
+    <div class="container border border-3 border-warning rounded mb-2">
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-4 col-md-12 mt-5 pt-3" style="font-family: 'Crimson Text'">
+          <div class="container">
+            <div class="row ms-3 fs-5" style="color: #a8720a; font-family: 'Crimson Text'">Informasi Kontak</div>
+            <div class="row mb-2 pb-3 mt-5">
+              <div class="col"><span>+1234 5678 9100</span><img src="telepon.png" alt="telepon" width="18" class="ms-4" /></div>
+            </div>
+            <div class="row">
+              <div class="col mb-2 pb-3"><span class="me-3">rantangan@mail.id</span><img src="email.png" alt="telepon" width="15" /></div>
+            </div>
+            <div class="row pb-1 mb-1">
+              <div class="col mb-2 pb-3">
+                <span class="me-3">Jl.Mawar 1 </span>
+                <img src="lokasi.png" alt="telepon" width="15" class="ms-5" />
+              </div>
+            </div>
+            <div class="row mt-1 pt-1 d-flex justify-content-center">
+              <div class="col-2 mt-5 pt-5">
+                <a href="#"><img src="twitter.png" alt="" /></a>
+              </div>
+              <div class="col-2 mt-5 pt-5">
+                <a href="#"><img src="facebook.png" alt="" /></a>
+              </div>
+              <div class="col-2 mt-5 pt-5">
+                <a href="#"><img src="instagram.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="row ps-4 px-5 py-3 fs-3" style="height: 80px; font-family: 'Crimson Text'; color: #a8720a">Contact Us</div>
+          <div class="container border border-2 border-dark mb-5 rounded">
+            <div class="mb-3 mt-4">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="email" class="form-control" id="nama" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+              <label for="telepon" class="form-label">No.Telepon</label>
+              <input type="email" class="form-control" id="telepon" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <button class="pesan">Kirim</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center text-dark">
+          <div class="copyright pt-5" style="font-size: 14px">
+            Copyrights <span><img src="copyright.png" alt="footer" /></span> 2021 Rantangan all right reserved
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
