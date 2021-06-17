@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <title>Order</title>
+    <style>
+      #tombol {
+        border-width: 2px;
+        background-color: transparent;
+        border-color: #a8720a;
+        color: #a8720a;
+        box-shadow: none;
+        border-style: solid;
+        transition: background-color 0.25s, color 0.25s;
+      }
+      #tombol:hover {
+        background-color: #a8720a;
+        color: white;
+      }
+      #brd {
+        border-color: #a8720a;
+      }
+    </style>
+  </head>
+  <body style="font-family: 'Crimson Text'">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light pb-3" style="font-family: 'Crimson Text'">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto gap-5" style="font-size: 15px">
+            <li class="nav-item">
+              <a class="nav-link" href="../home/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="font-weight: bold">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../kontak.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <!-- title -->
+    <div class="container-fluid border-top border-bottom border-3" id="brd">
+      <div class="row pt-3"></div>
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-4 col-md-7 col-sm-12 fs-lg-4 fs-sm-5 pt-3 pb-3 ps-5" style="background-color: #a8720a; color: white">Pesan Makanan Anda</div>
+        <div class="col-lg-3 col-md-4 col-sm-12 me-5 pt-md-2 pt-sm-3">
+          <form class="d-flex pt-lg-0 pt-md-3 pt-sm-2">
+            <input class="form-control me-2" type="search" placeholder="Menu" aria-label="Search" />
+            <button id="tombol" type="submit">Cari</button>
+          </form>
+        </div>
+      </div>
+      <div class="row pb-3"></div>
+    </div>
+    <!-- title -->
+    <!-- Main Food -->
+    <div class="container">
+      <div class="row d-flex justify-content-center fs-2 pt-md-3 pt-lg-5 pt-sm-2" style="color: #a8720a">MAIN</div>
+      <!-- #1 -->
+      <div class="row d-flex justify-content-center mt-lg-5">
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../home/content1/1.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 1 </span>
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../home/content1/2.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 2</span>
+
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../home/content1/3.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 3</span>
+
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+      </div>
+      <!-- #1 -->
+
+      <!-- space -->
+      <div class="row">
+        <div class="col" style="height: 50px"></div>
+      </div>
+      <!-- space -->
+
+      <!-- #2 -->
+      <div class="row d-flex justify-content-center mt-lg-5">
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../pict-menu/pict1.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 1 </span>
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../pict-menu/pict2.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 2</span>
+
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../pict-menu/pict3.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 3</span>
+
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+      </div>
+      <!-- #2 -->
+    </div>
+    <!-- Main Food -->
+
+    <div class="row">
+      <div class="col" style="height: 100px"></div>
+    </div>
+
+    <div class="row">
+      <div class="col" style="height: 100px"></div>
+    </div>
+
+    <!-- Dessert -->
+    <div class="container">
+      <div class="row d-flex justify-content-center fs-2 pt-md-3 pt-lg-5 pt-sm-2" style="color: #a8720a">DESSERT</div>
+      <!-- #1 -->
+      <div class="row d-flex justify-content-center mt-lg-5">
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../diet menu/menu1.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 1 </span>
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../diet menu/menu4.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 2</span>
+
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../diet menu/menu5.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 3</span>
+
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+      </div>
+      <!-- #1 -->
+
+      <!-- space -->
+      <div class="row">
+        <div class="col" style="height: 50px"></div>
+      </div>
+      <!-- space -->
+
+      <!-- #2 -->
+      <div class="row d-flex justify-content-center mt-lg-5">
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../diet menu/menu6.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 1 </span>
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../diet menu/menu7.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 2</span>
+
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-3 text-center">
+          <img src="../diet menu/menu8.jpg" alt="menu1" width="150px" class="img-fluid pb-2" />
+          <br />
+          <span class="pb-3"> Makanan 3</span>
+
+          <br />
+          <button id="tombol" style="width: 120px">Pesan</button>
+        </div>
+      </div>
+      <!-- #2 -->
+    </div>
+    <!-- Dessert -->
+    <div class="row">
+      <div class="col" style="height: 50px"></div>
+    </div>
+    <div class="row">
+      <div class="col" style="height: 50px"></div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid bg-dark">
+      <div class="row d-flex">
+        <div class="col-lg-2 col-md-4 col-sm-4 pt-5 ps-3 gap-5">
+          <div class="logo ps-4">
+            <img src="../home/footer/logo.png" alt="logo" />
+          </div>
+          <div class="social pt-3 ps-4">
+            <a href="#">
+              <img src="../home/footer/twt.png" alt="Twitter" />
+            </a>
+            <a href="#">
+              <img src="../home/footer/fb.png" alt="facebook" />
+            </a>
+            <a href="#">
+              <img src="../home/footer/ig.png" alt="instagram" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4">
+          <ul class="list-group text-white pt-5 ps-3 justify-content-end" style="font-size: 14px">
+            <li><a href="#" class="text-white" style="text-decoration: none">About</a></li>
+            <li><a href="#" class="text-white" style="text-decoration: none">CostumerService</a></li>
+            <li><a href="#" class="text-white" style="text-decoration: none">FoodService</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center text-white">
+          <div class="copyright pt-5" style="font-size: 14px">
+            Copyrights <span><img src="../home/footer/copyright.png" alt="footer" /></span> 2021 Rantangan all right reserved
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
